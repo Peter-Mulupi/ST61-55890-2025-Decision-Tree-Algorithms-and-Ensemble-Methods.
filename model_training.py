@@ -39,7 +39,8 @@ from sklearn.metrics import (
 # STEP 2: LOAD DATA
 # =========================
 
-df = pd.read_csv(r"M:\Open University of Kenya\SEM 2 AY 2025-2026\CSA 821 Machine Learning\student_exam_performance_dataset.csv")  # load dataset from file path
+
+df = pd.read_csv("student_exam_performance_dataset.csv") # load dataset from file path
 
 print("Dataset Loaded:", df.shape)  # print number of rows and columns
 
